@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.col{
+    padding: .4em 1.3em
+}
+.color-dark{
+    background: black
+    
+}
+.color-light{
+    background: lightblue
+}
+input.txt{
+    border: 0;
+    padding: 1em;
+    width:80%;
+    margin-bottom: 2em;
+}
+input.btn{
+    display:block;
+    border:0;
+    padding:1em 3em;
+    background: lightgreen;
+    color:blue;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.life-container{
+    background:lightblue;
+    padding: .5em;
+    font-weight: bold;
+    cursor: pointer;
+}
